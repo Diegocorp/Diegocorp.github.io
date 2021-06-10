@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.1d798f3b.chunk.js",
-    "main.js.map": "/static/js/main.1d798f3b.chunk.js.map",
+    "main.js": "/static/js/main.b403a869.chunk.js",
+    "main.js.map": "/static/js/main.b403a869.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.363c043d.js",
     "runtime-main.js.map": "/static/js/runtime-main.363c043d.js.map",
     "static/css/2.c2da9c2d.chunk.css": "/static/css/2.c2da9c2d.chunk.css",
@@ -13,12 +13,12 @@
     "static/media/Montserrat-Bold.079ca05d.ttf": "/static/media/Montserrat-Bold.079ca05d.ttf",
     "static/media/Montserrat-SemiBold.fa8441f3.ttf": "/static/media/Montserrat-SemiBold.fa8441f3.ttf",
     "static/media/RobotoMono-Regular.418a8f9f.ttf": "/static/media/RobotoMono-Regular.418a8f9f.ttf",
-    "static/media/about-page-img.99cd5116.png": "/static/media/about-page-img.99cd5116.png",
-    "static/media/about-sec-img.99cd5116.png": "/static/media/about-sec-img.99cd5116.png",
+    "static/media/about-page-img.788b45f5.jpg": "/static/media/about-page-img.788b45f5.jpg",
+    "static/media/about-sec-img.3676bfcc.jpg": "/static/media/about-sec-img.3676bfcc.jpg",
     "static/media/cavinimg.77adeaa3.jpg": "/static/media/cavinimg.77adeaa3.jpg",
     "static/media/cointracker.8da9e0cd.jpg": "/static/media/cointracker.8da9e0cd.jpg",
     "static/media/greenctg.e51b3bbd.jpg": "/static/media/greenctg.e51b3bbd.jpg",
-    "static/media/hero.99cd5116.png": "/static/media/hero.99cd5116.png",
+    "static/media/hero.bac9c12d.jpg": "/static/media/hero.bac9c12d.jpg",
     "static/media/projectImg.771236e1.png": "/static/media/projectImg.771236e1.png",
     "static/media/scroll-down-arrow.8ad25c53.svg": "/static/media/scroll-down-arrow.8ad25c53.svg",
     "static/media/social-media-arrow.ecc0133c.svg": "/static/media/social-media-arrow.ecc0133c.svg",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.363c043d.js",
     "static/css/2.c2da9c2d.chunk.css",
     "static/js/2.8726d4e2.chunk.js",
-    "static/js/main.1d798f3b.chunk.js"
+    "static/js/main.b403a869.chunk.js"
   ]
 }
