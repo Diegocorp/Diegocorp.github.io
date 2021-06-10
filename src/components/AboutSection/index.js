@@ -1,10 +1,9 @@
-import React from 'react';
-import Button from '../Button';
-import PText from '../PText';
-import SectionTitle from '../SectionTitle';
-import AboutImg from '../../assets/images/about-sec-img.png';
-import { AboutSectionStyles } from './AboutSectionElements'
-
+import React from "react";
+import Button from "../Button";
+import PText from "../PText";
+import SectionTitle from "../SectionTitle";
+import AboutImg from "../../assets/images/about-sec-img.jpg";
+import { AboutSectionStyles } from "./AboutSectionElements";
 
 export default function AboutSection() {
   return (
@@ -16,9 +15,9 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            I am a Full-Stack developer from Sonora, Mexico. I create professional
-            web and desktop applications. I love to find solutions to current problems
-            using the latest technological trends.          
+            I am a Full-Stack developer from Sonora, Mexico. I create
+            professional web and desktop applications. I love to find solutions
+            to current problems using the latest technological trends.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />

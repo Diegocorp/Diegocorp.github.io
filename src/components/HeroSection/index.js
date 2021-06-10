@@ -1,11 +1,11 @@
-import React from 'react';
-import HeroImg from '../../assets/images/hero.png';
-import Button from '../Button';
-import SocialMediaArrow from '../../assets/images/social-media-arrow.svg';
-import ScrollDownArrow from '../../assets/images/scroll-down-arrow.svg';
-import PText from '../PText';
-import { HeroStyles } from './HeroSectionElements';
- 
+import React from "react";
+import HeroImg from "../../assets/images/hero.jpg";
+import Button from "../Button";
+import SocialMediaArrow from "../../assets/images/social-media-arrow.svg";
+import ScrollDownArrow from "../../assets/images/scroll-down-arrow.svg";
+import PText from "../PText";
+import { HeroStyles } from "./HeroSectionElements";
+
 export default function HeroSection() {
   return (
     <HeroStyles>
@@ -20,7 +20,9 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              I have been working as a full-stack developer for 2 years. I love to design and create efficient and quality solutions for today's people.
+              I have been working as a full-stack developer for 2 years. I love
+              to design and create efficient and quality solutions for today's
+              people.
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
@@ -59,11 +61,7 @@ export default function HeroSection() {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="http://google.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="http://google.com" target="_blank" rel="noreferrer">
                     LI
                   </a>
                 </li>

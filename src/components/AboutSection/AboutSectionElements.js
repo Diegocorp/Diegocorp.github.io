@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const AboutSectionStyles = styled.div`
   padding: 10rem 0;
@@ -25,6 +25,13 @@ export const AboutSectionStyles = styled.div`
     justify-content: flex-start;
     gap: 2rem;
     margin-top: 2rem;
+  }
+  .aboutImg {
+    max-width: 900px;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid var(--gray-1);
   }
   @media only screen and (max-width: 950px) {
     .aboutSection__left {
