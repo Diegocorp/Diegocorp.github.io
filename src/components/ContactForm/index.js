@@ -1,52 +1,46 @@
-import React, { useState } from 'react';
-import { FormStyle } from './ContactFormElements'
-
-
+import React, { useState } from "react";
+import { useForm, ValidationError } from "@formspree/react";
+import { FormStyle } from "./ContactFormElements";
 
 export default function ContactForm() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [state, handleSubmit] = useForm("meqvprll");
+  if (state.succeeded) {
+    return <h1>Thanks for contact me!</h1>;
+  }
   return (
     <>
-      <FormStyle>
+      <FormStyle onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">
             Your Name
-            <input
-              type="text"
-              id="name"
-              name="name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
+            <input type="text" id="name" name="name" />
           </label>
         </div>
         <div className="form-group">
           <label htmlFor="email">
             Your email
-            <input
-              type="email"
-              id="email"
-              name="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+            <input type="email" id="email" name="email" />
+            <ValidationError
+              prefix="Email"
+              field="email"
+              errors={state.errors}
             />
           </label>
         </div>
         <div className="form-group">
           <label htmlFor="message">
             Your message
-            <textarea
-              type="text"
-              id="message"
-              name="message"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
+            <textarea type="text" id="message" name="message" />
+            <ValidationError
+              prefix="Message"
+              field="message"
+              errors={state.errors}
             />
           </label>
         </div>
-        <button type="submit">Send</button>
+        <button type="submit" disabled={state.submitting}>
+          Send
+        </button>
       </FormStyle>
     </>
   );

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const FormStyle = styled.form`
   width: 100%;
@@ -25,7 +25,7 @@ export const FormStyle = styled.form`
     min-height: 250px;
     resize: vertical;
   }
-  button[type='submit'] {
+  button[type="submit"] {
     background-color: var(--gray-1);
     color: var(--black);
     font-size: 2rem;
