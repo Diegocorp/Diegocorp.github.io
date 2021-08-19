@@ -1,18 +1,16 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation } from 'swiper';
-import ProjectItem from '../ProjectItem';
-import SectionTitle from '../SectionTitle';
-import 'swiper/swiper-bundle.min.css';
-import projects from '../../assets/data/projects';
-import { ProjectSectionStyle } from './ProjectSectionElements'
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation } from "swiper";
+import ProjectItem from "../ProjectItem";
+import SectionTitle from "../SectionTitle";
+import "swiper/swiper-bundle.min.css";
+import projects from "../../assets/data/projects";
+import { ProjectSectionStyle } from "./ProjectSectionElements";
 
 // install Swiper modules
 SwiperCore.use([Navigation]);
 
-
 export default function ProjectsSection() {
-  // console.log(projects);
   return (
     <ProjectSectionStyle>
       <div className="container">
@@ -21,6 +19,8 @@ export default function ProjectsSection() {
           <Swiper
             spaceBetween={30}
             slidesPerView={1}
+            autoHeight={true}
+            autoWidth={true}
             navigation
             breakpoints={{
               // when window width is >= 640px
@@ -32,7 +32,7 @@ export default function ProjectsSection() {
                 slidesPerView: 2,
               },
               1200: {
-                slidesPerView: 3,
+                slidesPerView: 2,
               },
             }}
           >

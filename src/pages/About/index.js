@@ -45,11 +45,11 @@ export default function About() {
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
               <AboutInfoItems
-                title="2020-2021"
-                items={["Full-Stack developer at GOintegro"]}
+                title="2021-Present"
+                items={["Front-End developer at Gometa, INC. withkoji.com"]}
               />
               <AboutInfoItems
-                title="2019-2021"
+                title="2019-Present"
                 items={["Back-End developer at Black Mamba, CORP. "]}
               />
               <AboutInfoItems

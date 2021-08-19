@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -63,6 +63,11 @@ export const AboutPageStyles = styled.div`
     }
     .about__info__heading {
       font-size: 3rem;
+    }
+    .right {
+    img {
+      height: 400px;
+      width: 100%;
     }
   }
 `;

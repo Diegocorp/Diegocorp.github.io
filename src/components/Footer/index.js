@@ -1,7 +1,7 @@
-import React from 'react';
-import FooterCol from '../FooterCol';
-import PText from '../PText';
-import { FooterStyle } from "./FooterElements"
+import React from "react";
+import FooterCol from "../FooterCol";
+import PText from "../PText";
+import { FooterStyle } from "./FooterElements";
 
 export default function Footer() {
   return (
@@ -10,10 +10,9 @@ export default function Footer() {
         <div className="footer__col1">
           <h1 className="footer__col1__title">Diego Sandoval</h1>
           <PText>
-            I am a Full-Stack developer from Sonora, Mexico. I 
-            create professional web and desktop applications. I 
-            love to find solutions to current problems using the
-             latest technological trends.
+            I am a Full-Stack developer from Sonora, Mexico. I create
+            professional web and desktop applications. I love to find solutions
+            to current problems using the latest technological trends.
           </PText>
         </div>
         <div className="footer__col2">
@@ -21,24 +20,24 @@ export default function Footer() {
             heading="Important Links"
             links={[
               {
-                title: 'Home',
-                link: '/',
-                type: 'Link',
+                title: "Home",
+                link: "/",
+                type: "Link",
               },
               {
-                type: 'Link',
-                title: 'About',
-                link: '/about',
+                type: "Link",
+                title: "About",
+                link: "/about",
               },
               {
-                type: 'Link',
-                title: 'Projects',
-                link: '/projects',
+                type: "Link",
+                title: "Projects",
+                link: "/projects",
               },
               {
-                type: 'Link',
-                title: 'Contact',
-                link: '/contact',
+                type: "Link",
+                title: "Contact",
+                link: "/contact",
               },
             ]}
           />
@@ -48,35 +47,31 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '(+52) 638-384-1821',
-                link: 'tel:+88012312',
+                title: "(+52) 638-384-1821",
+                link: "tel:+88012312",
               },
               {
-                title: 'diegosandovalr.corp@gmail.com',
-                link: 'mailto:diegosandovalr.corp@gmail.com',
+                title: "diegosandovalr.corp@gmail.com",
+                link: "mailto:diegosandovalr.corp@gmail.com",
               },
               {
-                title: 'Rocky Point, Sonora, Mexico',
-                link: 'http://google.com/maps',
+                title: "Rocky Point, Sonora, Mexico",
+                link: "http://google.com/maps",
               },
             ]}
           />
         </div>
         <div className="footer__col4">
           <FooterCol
-            heading="social Links"
+            heading="Social Links"
             links={[
               {
-                title: 'Facebook',
-                link: 'http://facebook.com',
+                title: "GitHub",
+                link: "https://github.com/Diegocorp",
               },
               {
-                title: 'Twitter',
-                link: 'http://twitter.com',
-              },
-              {
-                title: 'Instagram',
-                link: 'http://instagram.com',
+                title: "Linkedin",
+                link: "https://www.linkedin.com/in/diego-sandoval-83856a212/",
               },
             ]}
           />
@@ -84,9 +79,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText>
-            © 2021 - Diego Sandoval
-          </PText>
+          <PText>© 2021 - Diego Sandoval</PText>
         </div>
       </div>
     </FooterStyle>

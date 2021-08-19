@@ -69,5 +69,8 @@ export const AboutSectionStyles = styled.div`
         text-align: center;
       }
     }
+    .aboutImg {
+      height: 400px;
+    }
   }
 `;

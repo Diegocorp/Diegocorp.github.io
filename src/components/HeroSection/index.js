@@ -35,33 +35,19 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/"
+                    href="https://github.com/Diegocorp"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    FB
+                    GH
                   </a>
                 </li>
                 <li>
                   <a
-                    href="http://twitter.com/"
+                    href="https://www.linkedin.com/in/diego-sandoval-83856a212/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    TW
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://isntagram.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    IG
-                  </a>
-                </li>
-                <li>
-                  <a href="http://google.com" target="_blank" rel="noreferrer">
                     LI
                   </a>
                 </li>
