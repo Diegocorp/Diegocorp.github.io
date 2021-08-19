@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.b403a869.chunk.js",
-    "main.js.map": "/static/js/main.b403a869.chunk.js.map",
+    "main.js": "/static/js/main.39ae5f70.chunk.js",
+    "main.js.map": "/static/js/main.39ae5f70.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.363c043d.js",
     "runtime-main.js.map": "/static/js/runtime-main.363c043d.js.map",
     "static/css/2.c2da9c2d.chunk.css": "/static/css/2.c2da9c2d.chunk.css",
@@ -15,19 +15,18 @@
     "static/media/RobotoMono-Regular.418a8f9f.ttf": "/static/media/RobotoMono-Regular.418a8f9f.ttf",
     "static/media/about-page-img.788b45f5.jpg": "/static/media/about-page-img.788b45f5.jpg",
     "static/media/about-sec-img.3676bfcc.jpg": "/static/media/about-sec-img.3676bfcc.jpg",
-    "static/media/cavinimg.77adeaa3.jpg": "/static/media/cavinimg.77adeaa3.jpg",
-    "static/media/cointracker.8da9e0cd.jpg": "/static/media/cointracker.8da9e0cd.jpg",
-    "static/media/greenctg.e51b3bbd.jpg": "/static/media/greenctg.e51b3bbd.jpg",
+    "static/media/carfensoft.cda65b32.png": "/static/media/carfensoft.cda65b32.png",
     "static/media/hero.bac9c12d.jpg": "/static/media/hero.bac9c12d.jpg",
+    "static/media/joaquinjauregui.f56215be.png": "/static/media/joaquinjauregui.f56215be.png",
+    "static/media/masternet.4c702080.png": "/static/media/masternet.4c702080.png",
     "static/media/projectImg.771236e1.png": "/static/media/projectImg.771236e1.png",
     "static/media/scroll-down-arrow.8ad25c53.svg": "/static/media/scroll-down-arrow.8ad25c53.svg",
-    "static/media/social-media-arrow.ecc0133c.svg": "/static/media/social-media-arrow.ecc0133c.svg",
-    "static/media/utracker.be1fe64a.jpg": "/static/media/utracker.be1fe64a.jpg"
+    "static/media/social-media-arrow.ecc0133c.svg": "/static/media/social-media-arrow.ecc0133c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.363c043d.js",
     "static/css/2.c2da9c2d.chunk.css",
     "static/js/2.8726d4e2.chunk.js",
-    "static/js/main.b403a869.chunk.js"
+    "static/js/main.39ae5f70.chunk.js"
   ]
 }
