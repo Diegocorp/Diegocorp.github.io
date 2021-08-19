@@ -48,7 +48,7 @@ export default function Footer() {
             links={[
               {
                 title: "(+52) 638-384-1821",
-                link: "tel:+88012312",
+                link: "tel:+526383841821",
               },
               {
                 title: "diegosandovalr.corp@gmail.com",
@@ -56,7 +56,7 @@ export default function Footer() {
               },
               {
                 title: "Rocky Point, Sonora, Mexico",
-                link: "http://google.com/maps",
+                link: "https://www.google.com/maps/@31.3127374,-113.5373813,15z",
               },
             ]}
           />
