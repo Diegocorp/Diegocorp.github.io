@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ColStyle = styled.div`
   .heading {
@@ -10,5 +10,13 @@ export const ColStyle = styled.div`
   }
   a {
     font-size: 1.8rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .heading {
+      font-size: 2rem;
+    }
+    a {
+      font-size: 1.6rem;
+    }
   }
 `;

@@ -62,11 +62,11 @@ export default function About() {
 
               <AboutInfoItems
                 title="FrontEnd"
-                items={["HTML", "CSS", "JavaScript", "REACT", "ELECTRON"]}
+                items={["HTML", "CSS", "JAVASCRIPT", "REACT"]}
               />
               <AboutInfoItems
                 title="BackEnd"
-                items={["Node", "Express", "Java", "C#", "Ruby", "C++"]}
+                items={["Node", "Express", "Java", "C#", "C++"]}
               />
               <AboutInfoItems title="Design" items={["Figma", "Rive"]} />
             </div>

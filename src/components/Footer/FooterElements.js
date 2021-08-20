@@ -1,8 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const FooterStyle = styled.div`
   background-color: var(--deep-dark);
-  padding-top: 10rem;
+  padding-top: 4rem;
   .container {
     display: flex;
     gap: 3rem;

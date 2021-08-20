@@ -32,5 +32,8 @@ export const AboutItemStyles = styled.div`
     .title {
       font-size: 2rem;
     }
+    .item {
+      font-size: 2px;
+    }
   }
 `;
