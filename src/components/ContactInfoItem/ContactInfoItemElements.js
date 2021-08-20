@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ItemStyles = styled.div`
-  padding: 2rem;
+  padding: 1rem;
   background-color: var(--deep-dark);
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@ export const ItemStyles = styled.div`
   .icon {
     color: var(--white);
     background-color: var(--gray-2);
-    padding: 1.3rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;

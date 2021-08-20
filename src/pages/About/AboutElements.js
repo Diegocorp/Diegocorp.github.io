@@ -65,9 +65,10 @@ export const AboutPageStyles = styled.div`
       font-size: 3rem;
     }
     .right {
-    img {
-      height: 400px;
-      width: 100%;
+      img {
+        height: 400px;
+        width: 100%;
+      }
     }
   }
 `;
