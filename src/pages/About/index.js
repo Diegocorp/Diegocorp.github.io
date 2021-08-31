@@ -35,7 +35,14 @@ export default function About() {
                   face the new challenges that we face in the future.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              <a
+                className="button_a"
+                href="https://drive.google.com/file/d/19gBdoYn5WmI_4CG5vybAuwQosB_iEZGq/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Download CV
+              </a>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />

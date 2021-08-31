@@ -49,6 +49,16 @@ export const AboutPageStyles = styled.div`
     font-size: 3.6rem;
     text-transform: uppercase;
   }
+  .button_a {
+    font-size: 2.2rem;
+    background-color: ${(props) =>
+      props.outline ? "transperant" : "var(--gray-1)"};
+    padding: 0.7em 2em;
+    border: 2px solid var(--gray-1);
+    border-radius: 8px;
+    display: inline-block;
+    color: ${(props) => (props.outline ? "var(--gary-1)" : "black")};
+  }
   @media only screen and (max-width: 768px) {
     padding: 10rem 0;
     .top-section {
@@ -69,6 +79,9 @@ export const AboutPageStyles = styled.div`
         height: 400px;
         width: 100%;
       }
+    }
+    .button_a {
+      font-size: 1.8rem;
     }
   }
 `;

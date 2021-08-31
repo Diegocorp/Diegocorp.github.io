@@ -9,18 +9,21 @@ const projects = [
     name: "MasterNET Website",
     desc: "Website developed to promote the startup MasterNET in France using React.js technology.",
     img: MasterNETImg,
+    link: "https://www.masternet.ga/",
   },
   {
     id: uuidv4(),
     name: "CarfenSoft Website",
     desc: "Website developed to promote the software development company CarfenSoft using React.js technology.",
     img: CarfenSoftImg,
+    link: "https://www.carfensoft.ga/",
   },
   {
     id: uuidv4(),
     name: "Joaquin Jauregui Portfolio",
     desc: "Personal portfolio developed for the lawyer Joaquin Jauregui market for promotion in the american market using React.js technology.",
     img: JoaquinJaureguiImg,
+    link: "https://www.joaquinjauregui.ml/",
   },
 ];
 

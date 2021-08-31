@@ -1,18 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import ProjectImg from '../../assets/images/projectImg.png';
-import { ProjectItemStyles } from './ProjectItemElements'
-
+import ProjectImg from "../../assets/images/projectImg.png";
+import { ProjectItemStyles } from "./ProjectItemElements";
 
 export default function ProjectItem({
   img = ProjectImg,
-  title = 'Project Name',
-  desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  title = "Project Name",
+  desc = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  link = "some link",
 }) {
   return (
-    <ProjectItemStyles>
-      <Link to="/projects" className="projectItem__img">
+    <ProjectItemStyles onClick={() => window.open(link)}>
+      <Link className="projectItem__img">
         <img src={img} alt="project img" />
       </Link>
       <div className="projectItem__info">
