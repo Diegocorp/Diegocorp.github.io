@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.96ed5e8a.chunk.js",
-    "main.js.map": "/static/js/main.96ed5e8a.chunk.js.map",
+    "main.js": "/static/js/main.514a3b49.chunk.js",
+    "main.js.map": "/static/js/main.514a3b49.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.363c043d.js",
     "runtime-main.js.map": "/static/js/runtime-main.363c043d.js.map",
     "static/css/2.c2da9c2d.chunk.css": "/static/css/2.c2da9c2d.chunk.css",
@@ -16,17 +16,18 @@
     "static/media/about-page-img.788b45f5.jpg": "/static/media/about-page-img.788b45f5.jpg",
     "static/media/about-sec-img.3676bfcc.jpg": "/static/media/about-sec-img.3676bfcc.jpg",
     "static/media/carfensoft.cda65b32.png": "/static/media/carfensoft.cda65b32.png",
+    "static/media/charlesgranded.a2509752.png": "/static/media/charlesgranded.a2509752.png",
     "static/media/hero.bac9c12d.jpg": "/static/media/hero.bac9c12d.jpg",
     "static/media/joaquinjauregui.f56215be.png": "/static/media/joaquinjauregui.f56215be.png",
     "static/media/masternet.4c702080.png": "/static/media/masternet.4c702080.png",
     "static/media/projectImg.771236e1.png": "/static/media/projectImg.771236e1.png",
-    "static/media/scroll-down-arrow.8ad25c53.svg": "/static/media/scroll-down-arrow.8ad25c53.svg",
-    "static/media/social-media-arrow.ecc0133c.svg": "/static/media/social-media-arrow.ecc0133c.svg"
+    "static/media/scroll-down-arrow.b013ca45.svg": "/static/media/scroll-down-arrow.b013ca45.svg",
+    "static/media/social-media-arrow.f5e093ce.svg": "/static/media/social-media-arrow.f5e093ce.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.363c043d.js",
     "static/css/2.c2da9c2d.chunk.css",
     "static/js/2.6d7c9f83.chunk.js",
-    "static/js/main.96ed5e8a.chunk.js"
+    "static/js/main.514a3b49.chunk.js"
   ]
 }
