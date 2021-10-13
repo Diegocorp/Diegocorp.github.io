@@ -21,7 +21,7 @@ export default function AboutSection() {
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />
-            <Button btnText="Read More" btnLink="/about" outline />
+            <Button btnText="Read More" btnLink="/about" />
           </div>
         </div>
         <div className="aboutSection__right">

@@ -3,8 +3,16 @@ import CarfenSoftImg from "../images/projects/carfensoft.png";
 import MasterNETImg from "../images/projects/masternet.png";
 import JoaquinJaureguiImg from "../images/projects/joaquinjauregui.png";
 import CharlesGrandedImg from "../images/projects/charlesgranded.png";
+import DavidAlenImg from "../images/projects/DavidalenPortfolio.png";
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: "David Alen Portfolio",
+    desc: "Personal portfolio developed for David Alen freelance designer of user interfaces for websites and mobile applications. Made with React.js technology.",
+    img: DavidAlenImg,
+    link: "https://www.davidalen.tk/",
+  },
   {
     id: uuidv4(),
     name: "MasterNET Website",

@@ -52,7 +52,7 @@ export default function About() {
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
               <AboutInfoItems
-                title="2021-Present"
+                title="2020-Present"
                 items={["Front-End developer at Gometa, INC. withkoji.com"]}
               />
               <AboutInfoItems
@@ -69,13 +69,16 @@ export default function About() {
 
               <AboutInfoItems
                 title="FrontEnd"
-                items={["HTML", "CSS", "JAVASCRIPT", "REACT"]}
+                items={["Html", "Css", "JavaScript", "React.js"]}
               />
               <AboutInfoItems
                 title="BackEnd"
-                items={["Node", "Express", "Java", "C#", "C++"]}
+                items={["Node.js", "Express.js", "MongoDB"]}
               />
-              <AboutInfoItems title="Design" items={["Figma", "Rive"]} />
+              <AboutInfoItems
+                title="Others"
+                items={["TDD", "GIT", "Linux", "Shell script"]}
+              />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Education</h1>
